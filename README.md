@@ -26,10 +26,10 @@ MessageDefinition.loadTestDefinition has sample message definition, with include
 
 Was run on a Macbook Pro 2.7 GHz Intel Core i7
 
+```sh
 Benchmark                              Mode  Cnt       Score       Error  Units
-
 BenchmarkParser.testParserThroughput  thrpt    5  443712.170 ± 31581.702  ops/s
-
 BenchmarkParser.testParserLatency      avgt    5    2243.113 ±    76.570  ns/op
+```
 
 
