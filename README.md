@@ -3,8 +3,10 @@
 
 **Configure**
 
-Need to set appropriate Pool size for Messages
-This reduces the new Object creation
+Need to set appropriate Pool size for Messages, this reduces the new Object creation
+```java
+MessagePool.POOL_SIZE // default is 1M
+```
 
 
 **Reading Data of Message**
